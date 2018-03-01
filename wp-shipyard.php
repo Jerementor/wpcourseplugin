@@ -42,7 +42,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /* !1. HOOKS */
 // 1.6
 // advanced custom fields settings
-//add_filter('acf/settings/show_admin', '__return_false');
+add_filter('acf/settings/show_admin', '__return_false');
 
 
 
